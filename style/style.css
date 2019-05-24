@@ -1,0 +1,130 @@
+body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #4d515e;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+.global-wrapper {
+	display: flex;
+	background-color: #4d515e;
+}
+
+.container {
+	padding-top: 160px;
+	padding-bottom: 160px;
+	position: relative;
+	max-width: 1212px;
+	margin: 0 auto;	
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;	
+	justify-content: center;
+ 
+}
+
+.left-column {
+	padding-top: 111px;
+	padding-left: 80px;
+	width: 740px;
+	padding-right: 152px;
+	background-color: #fff;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.header-text {
+	padding-bottom: 32px;
+	color: #949cab;
+	font-size: 16px;
+	text-transform: uppercase;
+
+}
+
+.header-name {
+	padding-bottom: 37px;
+	font-size: 48px;
+	color: #38393e;
+}
+
+.header-main--text {
+	line-height: 25px;
+	padding-bottom: 80px;
+	color: #9fa8b7;
+}
+
+.sign-up--buttons {
+	display: grid;
+}
+
+.google-btn, .facebook-btn, .twitter-btn {
+	text-transform: uppercase;
+	display: inline-flex;
+	height: 87px;
+	width: 531px;
+	margin: 12px 0;
+	border: 1px solid #e3e7ec;
+	background-color: #fff;
+	border-radius: 5px;
+	position: relative;
+}
+
+.google-btn:hover, .facebook-btn:hover, .twitter-btn:hover {
+	cursor: pointer;
+	-webkit-box-shadow: -1px 0px 5px 0px rgba(17, 10, 10, 0.75);
+	-moz-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.google-btn img, .facebook-btn img, .twitter-btn img {
+	height: inherit;
+	height: 25px;
+	padding-left: 40px;
+}
+
+.google-btn a, .facebook-btn a, .twitter-btn a {
+	text-align: center;
+	width: 100%;
+	margin:	auto 0;
+	letter-spacing: 2px;
+}
+
+.right-column {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.right-column img {
+	height: 873px;
+}
+
+.right-column {
+	background-image: url(../img/city.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 873px;
+	width: 436px;
+}
+
+.left-column--footer {
+	padding-top: 100px;
+	display: inline-flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.left-column--footer a {
+	color: green;
+}
+
+.fa-arrow-right {
+	color: green;
+}
